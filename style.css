@@ -1,11 +1,14 @@
-*{
+* {
     left: 0px;
 }
+
 @import url("https://fonts.google.com/specimen/Public+Sans");
+
 @font-face {
-    font-family: 'Public-Sans',sans-serif;
+    font-family: 'Public-Sans', sans-serif;
     src: url("https://fonts.google.com/specimen/Public+Sans");
 }
+
 body {
     margin: 0;
     border: 0;
@@ -13,12 +16,14 @@ body {
     font-family: public sans;
     color: hsl(233, 26%, 24%);
 }
+
 .navbar {
     position: relative;
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     width: 100%;
 }
+
 .tab {
     display: none;
 }
@@ -27,27 +32,32 @@ body {
 .container {
     display: inline-block;
     cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
+}
+
+.bar1,
+.bar2,
+.bar3 {
     width: 35px;
     height: 5px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.5s;
-  }
-  
-  .change .bar1 {
+}
+
+.change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-  }
+}
+
 .overlay {
     height: max-content;
     width: 80%;
@@ -58,17 +68,17 @@ body {
     overflow-x: hidden;
     border-radius: 5px;
     box-shadow: 0 4px 40px 50px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-  }
 
-  .overlay-content {
+}
+
+.overlay-content {
     position: relative;
     width: 100%;
     text-align: center;
     padding: 10% 0%;
-  }
-  
-  .overlay a {
+}
+
+.overlay a {
     padding: 10px;
     text-decoration: none;
     font-size: 36px;
@@ -76,32 +86,35 @@ body {
     display: block;
     transition: 0.3s;
     font-size: 16px;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
+}
+
+.overlay a:hover,
+.overlay a:focus {
     color: limegreen;
-  }
-  
-  
-  .spanish {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px
-  }
-  
+}
+
+
+.spanish {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
 .header1 {
     position: relative;
     background-color: hsl(0, 0%, 98%);
     text-align: center;
 }
-#myNav{
-  display: none;
+
+#myNav {
+    display: none;
 }
 
 .first {
     padding: 10px;
     text-align: left;
 }
+
 .second {
     position: relative;
     overflow: hidden;
@@ -110,13 +123,15 @@ body {
 .svg1 {
     position: relative
 }
-.second img{
+
+.second img {
     width: 100%;
     position: absolute;
     z-index: 1;
     left: 0px;
     top: -110px;
 }
+
 .svg2 {
     display: none;
 }
@@ -135,55 +150,65 @@ body {
     margin-top: 3vh;
     font-size: 3vh;
 }
+
 .button {
-    width:40%;
+    width: 40%;
     padding: 10px;
     border-radius: 20px;
     color: white;
-    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     margin: 20px;
     margin-bottom: 40px;
     border: 0px;
     transition: .5s;
 }
+
 .button:hover {
     opacity: 0.5;
     cursor: pointer;
 
 }
+
 .header2 {
     position: relative;
     text-align: center;
     width: 100%;
 }
+
 .question {
     font-weight: 400;
     font-size: 5vh;
     text-align: center;
 }
+
 .answer {
     margin-top: 3vh;
     font-size: 3vh;
     text-align: center;
 }
+
 .answer1 {
     font-weight: 400;
     font-size: 4vh;
     text-align: center;
 }
-.text1{
+
+.text1 {
     margin-top: 3vh;
     font-size: 3vh;
     text-align: center;
     font-weight: 300;
 }
-.imgtext svg{
+
+.imgtext svg {
     position: relative;
     padding: 3vh;
 }
+
 .head1 {
     padding: 5vh;
 }
+
 .head2 {
     background-color: hsl(220, 16%, 96%);
     padding: 5vh;
@@ -197,12 +222,14 @@ body {
     width: 100%;
     padding-bottom: 5vh;
 }
+
 .head3-1 {
     font-weight: 400;
     font-size: 5vh;
     text-align: center;
     padding-top: 10vh;
 }
+
 .col1234 {
     background-color: white;
     margin-top: 3vh;
@@ -222,31 +249,37 @@ body {
     font-size: 1.5vh;
     text-align: left;
 }
+
 .topic {
-    font-size:3.5vh;
+    font-size: 3.5vh;
     text-align: left;
     padding-top: 2vh;
     padding-bottom: 2vh;
     font-weight: 700;
     transition: .5s;
 }
+
 .topic:hover {
     color: hsl(136, 65%, 51%);
     cursor: pointer;
 }
+
 .textbox {
     font-size: 2vh;
     text-align: left;
 }
+
 .textb {
     padding: 5vh;
 }
+
 .header4 {
     position: relative;
     text-align: center;
     background-color: hsl(233, 26%, 24%);
     padding: 5vh;
 }
+
 .social {
     display: flex;
     justify-content: center;
@@ -260,62 +293,74 @@ body {
     cursor: pointer;
 }
 
-.help p{
+.help p {
     color: white;
     transition: .5s;
 }
+
 .help p:hover {
-    color:hsl(136, 65%, 51%);
+    color: hsl(136, 65%, 51%);
     cursor: pointer;
 }
-.header4 .button{
+
+.header4 .button {
     left: 50%;
     transform: translate(45%, 0%);
-    
+
 
 }
+
 .rights p {
     color: hsl(220, 16%, 96%);
 }
 
-@media screen and (min-width: 375px){
-    
+@media screen and (min-width: 375px) {
+
     body {
         width: 100%;
         position: relative;
     }
+    .over1{
+        left: 0px
+    }
     .navbar {
-        display: flex;
-        height: min-content;
-        font-size: 3vh;
         position: relative;
+        left:0;
+        font-size: 0.5vh;
         max-width: 100%;
-        overflow-x: scroll;
+        text-align: left;
     }
+
     .tab {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: contents;
     }
+
     .spanish1 {
         display: none;
     }
+
     .tab1 {
         display: flex;
     }
-    .spain{
+
+    .spain {
         display: flex;
         justify-content: space-between;
+        width: 100%;
 
     }
+
     .over1 {
-        padding: 5vh 25vh;
+        padding: 5vh 0vh;
+        flex-basis: 30%;
     }
+
     .over12 {
         display: flex;
         justify-content: space-between;
     }
-    .over12 a{
+
+    .over12 a {
         padding: 2vh;
         color: hsl(233, 26%, 24%);
         text-decoration: none;
@@ -323,9 +368,11 @@ body {
         opacity: 0.5;
         transition: opacity 0.5s;
     }
-    .over12 a:not(:hover){
+
+    .over12 a:not(:hover) {
         opacity: 0.5s
     }
+
     .over12 a::after {
         content: "";
         position: absolute;
@@ -334,31 +381,36 @@ body {
         bottom: -41px;
         height: 5px;
         width: 0%;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
         transition: width 0.5s;
     }
+
     .over12 a:hover {
         opacity: 1;
     }
+
     .over12 a:hover::after {
         width: 100%;
     }
-    
+
     #buttont {
-        width:50%;
+        max-width: fit-content;
+        text-align: center;
         padding: 10px;
         height: min-content;
         border-radius: 20px;
         color: white;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
         border: 0px;
-        margin-top: 4vh;
+        margin: 4vh;
         transition: .5s;
     }
+
     #buttont:hover {
         opacity: 0.5;
         cursor: pointer;
     }
+
     .header11 {
         display: flex;
         flex-direction: row-reverse;
@@ -366,37 +418,43 @@ body {
         justify-content: space-between;
 
     }
+
     .third {
         width: 30%;
         padding: 5% 5%;
         text-align: left;
     }
-    
+
     .third-header {
         font-weight: 700;
         font-size: 7vh;
         text-align: center;
         text-align: left;
     }
-    
+
     .third-text {
         margin-top: 3vh;
         font-size: 3vh;
         text-align: left;
     }
+
     .third .button {
         width: 50%;
         margin-left: 0px;
     }
+
     .second {
         width: 60%;
     }
+
     .svg1 {
         display: none;
     }
+
     .svg2 {
         display: block;
     }
+
     .second img {
         position: absolute;
         left: 17%;
@@ -406,86 +464,104 @@ body {
         height: max-content;
 
     }
+
     .header2 {
         position: relative;
         text-align: left;
     }
+
     .head2 {
         padding: 5%;
     }
+
     .question {
         font-weight: 400;
-        font-size: 5vh;
+        font-size: 4vh;
         text-align: left;
     }
+
     .answer {
         margin-top: 3vh;
         font-size: 3vh;
         text-align: left;
         width: 60%;
     }
+
     .answer1 {
         font-weight: 400;
-        font-size: 4vh;
+        font-size: 3vh;
         text-align: left;
     }
-    .text1{
+
+    .text1 {
         margin-top: 3vh;
-        font-size: 3vh;
+        font-size: 2vh;
         text-align: left;
         font-weight: 300;
     }
-    .imgtext{
+
+    .imgtext {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 7vh;
     }
+
     .imgcol {
         flex-basis: 20%;
+        min-width: 20%;
     }
+
     .header3 {
-        overflow-x: scroll;
         width: 100%;
     }
+
     .head3-1 {
         text-align: left;
         padding-left: 5%
     }
+
     .head3 {
         display: flex;
+        padding-left: 3%;
         justify-content: space-between;
-        padding:0 3%;
     }
+
     .col1234 {
         flex-basis: 20%;
+        min-width: 10%;
     }
+
     .header4 {
         display: flex;
         justify-content: space-between;
         padding: 2% 5%;
         height: min-content;
     }
+
     .help {
         display: flex;
         justify-content: space-between;
         text-align: left;
         flex-basis: 30%;
     }
+
     .buttonrights {
         align-content: right;
     }
+
     .header4 .button {
         width: 80%;
         left: 0%;
         transform: translate(0%);
     }
+
     .social {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 9vh 0vh;
     }
-    
-    
+
+
 }
